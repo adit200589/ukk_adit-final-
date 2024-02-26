@@ -8,13 +8,13 @@ session_start();
 //   exit();
 // }
 
-if (!isset($_SESSION['nisn'])) {
+if (!isset($_SESSION['nama'])) {
   header("Location: ../login.php");
   exit();
 }
 
 // Access the NIS from the session
-$nis = $_SESSION['nisn'];
+$nis = $_SESSION['nama'];
 
 // Now you can use $nis wherever you need it
 require "../config/config.php";

@@ -8,7 +8,7 @@ session_start();
 //   exit();
 // }
 
-if (!isset($_SESSION['nisn'])) {
+if (!isset($_SESSION['nama'])) {
   header("Location: ../login.php");
   exit();
 }
