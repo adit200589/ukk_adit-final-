@@ -3,7 +3,7 @@
 $host = "127.0.0.1";
 $username = "root";
 $password = "";
-$database = "ukk_adit";
+$database = "anr_ukk";
 $connect = mysqli_connect($host, $username, $password, $database);
 
 

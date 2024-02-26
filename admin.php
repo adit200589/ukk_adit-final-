@@ -86,7 +86,7 @@ $connect->close();
         <label>Password</label>
       </div>
       <button class="btn btn-primary" type="submit" name="btn-login">Masuk</button>
-      <button onclick="window.location.href='index.php'" class="btn btn-primary" type="button">Kembali Ke Hlmn Utama</button>
+      <button onclick="window.location.href='login.php'" class="btn btn-primary" type="button">Back To Login</button>
     </form>
   </div>
 
